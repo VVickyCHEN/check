@@ -1,0 +1,41 @@
+#middle::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+{$foo.banner_thumb|ltrim=###,'.'}
+file_put_contents('qq.txt',I('auth_name'));
+            $this->ajaxReturn(I('post.'));
+            exit;
+
+    <ol>
+                  <li>品牌： 寻香记&nbsp;&nbsp;</li>
+                  <li>商品名称： 世纪沉香坊 &nbsp;加里曼丹&nbsp; 沉香佛珠&nbsp; 保真沉香手链 &nbsp;男女款 20g</li>
+                  <li>商品编号：11441400719</li>
+                  <li>店铺： 世纪沉香坊官方旗舰店</li>
+                  <li>商品毛重：100.00g&nbsp;&nbsp;款式：手链   </li>
+                  <li>适用人群：情侣</li>
+                  <li>用途：馈赠，自戴，其它</li>
+                </ol>
+
+0：未付款，1：已付款，2：已发货，3：交易成功，4：申请退货，5：已退货未退款，6：退款成功'
+<li><input type="checkbox"><a href="pro_details.html"><img src="img/sl_01.png"></a><p><span><a href="pro_details.html">【世纪沉香坊】</a></span><span>加里曼丹 10mm *19颗 8克</span></p><p><span>颜色：棕色</span><span>规格：10MM</span></p><p><span>¥13420.00</span><span><a href="javascript:void(0)">更多促销</a></span></p><div><div><button>-</button><input type="text" value="1"><button>+</button></div><span>有货</span></div><p><span>¥13420.00</span><span>0.8kg</span></p><p><span>删除</span><span>移到我的关注</span></p></li>
+
+<li>
+                <input type="checkbox" value="{$foo.order_id}">
+                <a href="{:U('Product/pro_details')}?id={$foo.order_product}"><img src=".{$foo.order_img}"></a>
+                <p><span><a href="{:U('Product/pro_details')}?id={$foo.order_product}">【世纪沉香坊】</a></span>
+                <span>{$foo.order_name}</span></p>
+                <p><span>颜色：棕色</span>
+                <span>规格：{$foo.order_style}</span></p>
+                <p><span>¥{$foo.order_price}</span>
+                <span><a href="javascript:void(0)">更多促销</a></span></p><div>
+                <div><button>-</button>
+                <input type="text" value="{$foo.order_num}">
+                <button>+</button></div>
+                <span>有货</span></div>
+                <p><span>¥{$foo.order_total}</span>
+                <span>0.8kg</span></p>
+                <p><span>删除</span>
+                <span>移到我的关注</span></p>
+                </li>

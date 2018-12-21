@@ -1,0 +1,226 @@
+[ 2018-12-07T10:08:54+08:00 ] ::1 /gt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015411s ]
+SQL: SHOW COLUMNS FROM `studystatus` [ RunTime:0.0429s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.030367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.030408s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.188229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012791s ]
+
+[ 2018-12-07T10:09:05+08:00 ] ::1 /gt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `studystatus` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-12-07T10:50:21+08:00 ] ::1 /gt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `studystatus` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2018-12-07T10:50:42+08:00 ] ::1 /gt/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `user` WHERE `user_username` = '111' LIMIT 1   [ RunTime:0.0058s ]
+
+[ 2018-12-07T10:50:44+08:00 ] ::1 /gt/exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT `user_img` FROM `user` WHERE `user_id` = 37 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `ting1img` FROM `user` WHERE `user_id` = 37 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `ting2img` FROM `user` WHERE `user_id` = 37 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `examstatus` FROM `user` WHERE `user_id` = 37 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `hall1` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `hall1`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: hallimg1 D:\PHPTutorial\WWW\gt\Application\Home\Controller\ExamController.class.php 第 172 行.
+NOTIC: [8] Undefined variable: hall1mp3 D:\PHPTutorial\WWW\gt\Application\Home\Controller\ExamController.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `hall2` [ RunTime:0.0306s ]
+SQL: SELECT * FROM `hall2`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: hallimg2 D:\PHPTutorial\WWW\gt\Application\Home\Controller\ExamController.class.php 第 194 行.
+NOTIC: [8] Undefined variable: hall2mp3 D:\PHPTutorial\WWW\gt\Application\Home\Controller\ExamController.class.php 第 198 行.
+SQL: SHOW COLUMNS FROM `hallimg` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `hallimg`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0008s ]
+SQL: SELECT `tm_n1` FROM `exam` WHERE ( user_id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tm_n2` FROM `exam` WHERE ( user_id=37 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: etw_ D:\PHPTutorial\WWW\gt\Application\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Undefined variable: etw_ D:\PHPTutorial\WWW\gt\Application\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Undefined variable: etw_ D:\PHPTutorial\WWW\gt\Application\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Undefined variable: etw_ D:\PHPTutorial\WWW\gt\Application\Home\Controller\IndexController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `judge` [ RunTime:0.0571s ]
+SQL: SELECT * FROM `judge`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `choice` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `choice`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: choice_true D:\PHPTutorial\WWW\gt\Application\Runtime\Cache\Home\d750603422ebf58b034b899f4ea0ac02.php 第 325 行.
+NOTIC: [8] Undefined index: choice_content D:\PHPTutorial\WWW\gt\Application\Runtime\Cache\Home\d750603422ebf58b034b899f4ea0ac02.php 第 333 行.
+NOTIC: [8] Undefined index: choice_a D:\PHPTutorial\WWW\gt\Application\Runtime\Cache\Home\d750603422ebf58b034b899f4ea0ac02.php 第 336 行.
+NOTIC: [8] Undefined index: choice_b D:\PHPTutorial\WWW\gt\Application\Runtime\Cache\Home\d750603422ebf58b034b899f4ea0ac02.php 第 337 行.
+NOTIC: [8] Undefined index: choice_c D:\PHPTutorial\WWW\gt\Application\Runtime\Cache\Home\d750603422ebf58b034b899f4ea0ac02.php 第 338 行.
+NOTIC: [8] Undefined index: judge_true D:\PHPTutorial\WWW\gt\Application\Runtime\Cache\Home\d750603422ebf58b034b899f4ea0ac02.php 第 360 行.
+NOTIC: [8] Undefined index: judge_content D:\PHPTutorial\WWW\gt\Application\Runtime\Cache\Home\d750603422ebf58b034b899f4ea0ac02.php 第 379 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2018-12-07T10:50:45+08:00 ] ::1 /gt/exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT `user_img` FROM `user` WHERE `user_id` = 37 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `ting1img` FROM `user` WHERE `user_id` = 37 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `ting2img` FROM `user` WHERE `user_id` = 37 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `examstatus` FROM `user` WHERE `user_id` = 37 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hall1` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hall1`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: hallimg1 D:\PHPTutorial\WWW\gt\Application\Home\Controller\ExamController.class.php 第 172 行.
+NOTIC: [8] Undefined variable: hall1mp3 D:\PHPTutorial\WWW\gt\Application\Home\Controller\ExamController.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `hall2` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hall2`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: hallimg2 D:\PHPTutorial\WWW\gt\Application\Home\Controller\ExamController.class.php 第 194 行.
+NOTIC: [8] Undefined variable: hall2mp3 D:\PHPTutorial\WWW\gt\Application\Home\Controller\ExamController.class.php 第 198 行.
+SQL: SHOW COLUMNS FROM `hallimg` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hallimg`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0009s ]
+SQL: SELECT `tm_n1` FROM `exam` WHERE ( user_id=37 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tm_n2` FROM `exam` WHERE ( user_id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: etw_ D:\PHPTutorial\WWW\gt\Application\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Undefined variable: etw_ D:\PHPTutorial\WWW\gt\Application\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Undefined variable: etw_ D:\PHPTutorial\WWW\gt\Application\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Undefined variable: etw_ D:\PHPTutorial\WWW\gt\Application\Home\Controller\IndexController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `judge` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `judge`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `choice` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `choice`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined index: choice_true D:\PHPTutorial\WWW\gt\Application\Runtime\Cache\Home\d750603422ebf58b034b899f4ea0ac02.php 第 325 行.
+NOTIC: [8] Undefined index: choice_content D:\PHPTutorial\WWW\gt\Application\Runtime\Cache\Home\d750603422ebf58b034b899f4ea0ac02.php 第 333 行.
+NOTIC: [8] Undefined index: choice_a D:\PHPTutorial\WWW\gt\Application\Runtime\Cache\Home\d750603422ebf58b034b899f4ea0ac02.php 第 336 行.
+NOTIC: [8] Undefined index: choice_b D:\PHPTutorial\WWW\gt\Application\Runtime\Cache\Home\d750603422ebf58b034b899f4ea0ac02.php 第 337 行.
+NOTIC: [8] Undefined index: choice_c D:\PHPTutorial\WWW\gt\Application\Runtime\Cache\Home\d750603422ebf58b034b899f4ea0ac02.php 第 338 行.
+NOTIC: [8] Undefined index: judge_true D:\PHPTutorial\WWW\gt\Application\Runtime\Cache\Home\d750603422ebf58b034b899f4ea0ac02.php 第 360 行.
+NOTIC: [8] Undefined index: judge_content D:\PHPTutorial\WWW\gt\Application\Runtime\Cache\Home\d750603422ebf58b034b899f4ea0ac02.php 第 379 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2018-12-07T11:02:09+08:00 ] ::1 /gt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `studystatus` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2018-12-07T11:12:22+08:00 ] ::1 /gt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `studystatus` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+

@@ -1,0 +1,135 @@
+[ 2018-10-19T09:28:11+08:00 ] ::1 /gt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `studystatus` [ RunTime:0.0327s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0304s ]
+SQL: SELECT `mission` FROM `user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0072s ]
+SQL: SELECT `mission2` FROM `user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006992s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007028s ]
+NOTIC: [8] Undefined variable: timedifferent D:\xmapp\htdocs\gt\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 117 行.
+NOTIC: [8] Undefined variable: timedifferent2 D:\xmapp\htdocs\gt\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2018-10-19T11:07:51+08:00 ] ::1 /gt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `studystatus` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT `mission` FROM `user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `mission2` FROM `user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: timedifferent D:\xmapp\htdocs\gt\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 117 行.
+NOTIC: [8] Undefined variable: timedifferent2 D:\xmapp\htdocs\gt\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2018-10-19T16:48:10+08:00 ] ::1 /gt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009481s ]
+SQL: SHOW COLUMNS FROM `studystatus` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT `mission` FROM `user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `mission2` FROM `user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: timedifferent D:\xmapp\htdocs\gt\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 117 行.
+NOTIC: [8] Undefined variable: timedifferent2 D:\xmapp\htdocs\gt\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2018-10-19T18:01:53+08:00 ] ::1 /gt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `studystatus` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0191s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0271s ]
+SQL: SELECT `mission` FROM `user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `mission2` FROM `user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: timedifferent D:\xmapp\htdocs\gt\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 117 行.
+NOTIC: [8] Undefined variable: timedifferent2 D:\xmapp\htdocs\gt\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2018-10-19T19:20:03+08:00 ] ::1 /gt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `studystatus` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT `mission` FROM `user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `mission2` FROM `user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: timedifferent D:\xmapp\htdocs\gt\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 117 行.
+NOTIC: [8] Undefined variable: timedifferent2 D:\xmapp\htdocs\gt\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+

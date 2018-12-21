@@ -1,0 +1,81 @@
+#background{
+    background: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.top{
+    position: absolute;
+    width: 6.04rem;
+    height: 0.73rem;
+    left: 50%;
+    margin-left: -3.02rem;
+    margin-top: 0.38rem;
+}
+.top span img{
+    width: 0.1rem;
+    height: 0.1rem;
+}
+.top span{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+    font-size: 0.23rem;
+    width: 3.8rem;
+    height: 0.24rem;
+    margin-left: 1rem;
+    margin-top: -0.5rem;
+}
+.mid{
+    position: absolute;
+    width: 6.96rem;
+    height: 6.2rem;
+    top: 1.25rem;
+    left: 50%;
+    margin-left: -3.48rem;
+}
+.mid p img{
+    width: 3.06rem;
+    position: absolute;
+    height: 3.06rem;
+    top: 50%;
+    left: 50%;
+    margin-top: -2.3rem;
+    margin-left: -1.53rem;
+}
+.mid span{
+    font-size: 0.5rem;
+    color: #ffffff;
+    position: absolute;
+    top:4.5rem;
+    margin-left: 1.3rem;
+}
+.mid textarea{
+    width: 6.96rem;
+    height: 5.79rem;
+    border: 1px solid #00ffff;
+    background: rgba(0,255,255,0.2);
+}
+.mid ul{
+    position: absolute;
+    width: 7.06rem;
+    height: 1.82rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -3.8rem;
+    left: 50%;
+    margin-left: -3.53rem;
+}
+.mid ul li img{
+    width: 0.06rem;
+    height: 1.82rem;
+}
+.but{
+    position: absolute;
+    margin-top: 7.62rem;
+    left: 50%;
+    width: 2.65rem;
+    height: 1.16rem;
+    margin-left: -1.325rem;
+}

@@ -1,0 +1,580 @@
+[ 2018-05-03T17:04:16+08:00 ] ::1 /shiji/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [8] Undefined variable: moduleurl D:\xampp\htdocs\shiji\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: moduleurl D:\xampp\htdocs\shiji\Application\Admin\Controller\CommonController.class.php 第 23 行.
+
+[ 2018-05-03T17:04:17+08:00 ] ::1 /shiji/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011250s ]
+
+[ 2018-05-03T17:04:17+08:00 ] ::1 /shiji/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2018-05-03T17:04:24+08:00 ] ::1 /shiji/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+ERR: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+
+[ 2018-05-03T17:04:26+08:00 ] ::1 /shiji/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+
+[ 2018-05-03T17:04:28+08:00 ] ::1 /shiji/Admin/Login/verify/0.2048802264663856
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2018-05-03T17:04:31+08:00 ] ::1 /shiji/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+ERR: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+
+[ 2018-05-03T17:09:00+08:00 ] ::1 /shiji/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+
+[ 2018-05-03T17:47:45+08:00 ] ::1 /shiji/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+NOTIC: [8] Undefined variable: moduleurl D:\XAMPP\htdocs\shiji\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: moduleurl D:\XAMPP\htdocs\shiji\Application\Admin\Controller\CommonController.class.php 第 23 行.
+
+[ 2018-05-03T17:47:45+08:00 ] ::1 /shiji/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010984s ]
+
+[ 2018-05-03T17:47:45+08:00 ] ::1 /shiji/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2018-05-03T17:47:55+08:00 ] ::1 /shiji/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+ERR: 1932:Table 'shiji.manager' doesn't exist in engine
+ [ SQL语句 ] : SHOW COLUMNS FROM `manager`
+ERR: 1932:Table 'shiji.manager' doesn't exist in engine
+ [ SQL语句 ] : SHOW COLUMNS FROM `manager`
+
+[ 2018-05-03T17:47:56+08:00 ] ::1 /shiji/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+
+[ 2018-05-03T17:47:58+08:00 ] ::1 /shiji/Admin/Login/verify/0.09652245700945428
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2018-05-03T17:48:02+08:00 ] ::1 /shiji/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+ERR: 1932:Table 'shiji.manager' doesn't exist in engine
+ [ SQL语句 ] : SHOW COLUMNS FROM `manager`
+ERR: 1932:Table 'shiji.manager' doesn't exist in engine
+ [ SQL语句 ] : SHOW COLUMNS FROM `manager`
+
+[ 2018-05-03T17:49:07+08:00 ] ::1 /shiji/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+
+[ 2018-05-03T17:56:46+08:00 ] ::1 /shiji/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [8] Undefined variable: moduleurl D:\XAMPP\htdocs\shiji\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: moduleurl D:\XAMPP\htdocs\shiji\Application\Admin\Controller\CommonController.class.php 第 23 行.
+
+[ 2018-05-03T17:56:46+08:00 ] ::1 /shiji/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2018-05-03T17:56:46+08:00 ] ::1 /shiji/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2018-05-03T17:56:54+08:00 ] ::1 /shiji/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `manager` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `manager` WHERE `username` = 'admin' AND `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-05-03T17:56:56+08:00 ] ::1 /shiji/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0034s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0047s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0037s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 1 AND `auth_type` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 14 AND `auth_type` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2018-05-03T17:56:56+08:00 ] ::1 /shiji/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0034s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0035s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0032s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2018-05-03T17:56:58+08:00 ] ::1 /shiji/Admin/Style/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `style` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `style`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2018-05-03T17:56:59+08:00 ] ::1 /shiji/Admin/Category/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0036s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0034s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0032s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0033s ]
+SQL: SELECT `category_id`,`category_name` FROM `category` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `category_id`,`category_name` FROM `category` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `category_id`,`category_name` FROM `category` WHERE `pid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT `category_id`,`category_name` FROM `category` WHERE `pid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT `category_id`,`category_name` FROM `category` WHERE `pid` = 5  [ RunTime:0.0003s ]
+SQL: SELECT `category_id`,`category_name` FROM `category` WHERE `pid` = 6  [ RunTime:0.0003s ]
+SQL: SELECT `category_id`,`category_name` FROM `category` WHERE `pid` = 7  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2018-05-03T17:56:59+08:00 ] ::1 /shiji/Admin/Product/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0051s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0029s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0032s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0037s ]
+SQL: SELECT `product_id`,`product_name`,`product_ctime`,`category_name` FROM product as a INNER JOIN category as b on b.category_id=a.product_category  ORDER BY product_id desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `style` [ RunTime:0.0033s ]
+SQL: SELECT * FROM style as a INNER JOIN product_style as b on b.style_id=a.style_id   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM product as a LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2018-05-03T17:57:00+08:00 ] ::1 /shiji/Admin/Place/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0034s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0033s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0033s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+ERR: 1146:Table 'shiji.place' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `place`
+ERR: 1146:Table 'shiji.place' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `place`
+
+[ 2018-05-03T17:57:01+08:00 ] ::1 /shiji/Admin/Region/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0033s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0029s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0043s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+ERR: 1146:Table 'shiji.region' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `region`
+ERR: 1146:Table 'shiji.region' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `region`
+
+[ 2018-05-03T17:57:01+08:00 ] ::1 /shiji/Admin/Region/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0038s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0034s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0033s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+ERR: 1146:Table 'shiji.region' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `region`
+ERR: 1146:Table 'shiji.region' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `region`
+
+[ 2018-05-03T17:57:02+08:00 ] ::1 /shiji/Admin/Region/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0036s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0034s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0038s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+ERR: 1146:Table 'shiji.region' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `region`
+ERR: 1146:Table 'shiji.region' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `region`
+
+[ 2018-05-03T17:57:02+08:00 ] ::1 /shiji/Admin/Speci/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0035s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0046s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0030s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+ERR: 1146:Table 'shiji.speci' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `speci`
+ERR: 1146:Table 'shiji.speci' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `speci`
+
+[ 2018-05-03T17:57:03+08:00 ] ::1 /shiji/Admin/Region/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0041s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0032s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0090s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+ERR: 1146:Table 'shiji.region' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `region`
+ERR: 1146:Table 'shiji.region' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `region`
+
+[ 2018-05-03T17:57:04+08:00 ] ::1 /shiji/Admin/Speci/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0039s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0038s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0034s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+ERR: 1146:Table 'shiji.speci' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `speci`
+ERR: 1146:Table 'shiji.speci' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `speci`
+
+[ 2018-05-03T17:57:05+08:00 ] ::1 /shiji/Admin/Place/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0040s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0031s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0037s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+ERR: 1146:Table 'shiji.place' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `place`
+ERR: 1146:Table 'shiji.place' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `place`
+
+[ 2018-05-03T17:57:06+08:00 ] ::1 /shiji/Admin/Product/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0072s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0040s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0039s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0036s ]
+SQL: SELECT `product_id`,`product_name`,`product_ctime`,`category_name` FROM product as a INNER JOIN category as b on b.category_id=a.product_category  ORDER BY product_id desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `style` [ RunTime:0.0037s ]
+SQL: SELECT * FROM style as a INNER JOIN product_style as b on b.style_id=a.style_id   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM product as a LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2018-05-03T17:57:09+08:00 ] ::1 /shiji/Admin/Product/showlist/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0067s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0032s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0037s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0039s ]
+SQL: SELECT `product_id`,`product_name`,`product_ctime`,`category_name` FROM product as a INNER JOIN category as b on b.category_id=a.product_category  ORDER BY product_id desc LIMIT 5,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `style` [ RunTime:0.0035s ]
+SQL: SELECT * FROM style as a INNER JOIN product_style as b on b.style_id=a.style_id   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM product as a LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+

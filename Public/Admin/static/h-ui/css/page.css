@@ -1,0 +1,56 @@
+.page-container>div>.num{
+	cursor: pointer;
+	border: 1px solid #beafaf;
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+	text-align: center;
+	color: #0c0c0c;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	line-height: 32px;
+	background-color: #f0ecec;
+}
+.page-container>div>.current{
+	cursor: pointer;
+	border: 1px solid #beafaf;
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+	text-align: center;
+	color: #0c0c0c;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	line-height: 32px;
+	background-color: #333333;
+}
+.page-container>div>a:hover{
+	background-color: #FFFFFF;
+	color: #df1414;
+}
+.page-container>div>.prev{
+	cursor: pointer;
+	border: 1px solid #beafaf;
+	height: 32px;
+	width: 60px;
+	display: inline-block;
+	text-align: center;
+	color: #0c0c0c;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	line-height: 32px;
+	background-color: #f0ecec;
+}
+.page-container>div>.next{
+	cursor: pointer;
+	border: 1px solid #beafaf;
+	height: 32px;
+	width: 60px;
+	display: inline-block;
+	text-align: center;
+	color: #0c0c0c;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	line-height: 32px;
+	background-color: #f0ecec;
+}

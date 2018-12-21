@@ -1,0 +1,17 @@
+<aside class="Hui-aside">
+	<input runat="server" id="divScrollValue" type="hidden" value="" />
+	<div class="menu_dropdown bk_2">
+	<volist name="list" id="foo">
+		<dl id="menu-member">
+			<dt><i class="Hui-iconfont">&#xe60d;</i> {$foo.auth_name}<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dd>
+				<ul>
+				<volist name="foo['son']" id="voo">
+					<li><a data-href="{:U($voo['auth_module'].'/'.$voo['auth_controller'].'/'.$voo['auth_action'])}" data-title="{$voo.auth_name}" href="javascript:;">{$voo.auth_name}</a></li>
+				</volist>
+				</ul>
+			</dd>
+		</dl>
+	</volist>
+	</div>
+</aside>

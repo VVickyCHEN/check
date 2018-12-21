@@ -1,0 +1,15 @@
+[ 2018-11-08T17:11:49+08:00 ] 119.129.113.54 /gt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+
+[ 2018-11-08T17:31:32+08:00 ] 180.163.220.5 /gt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2018-11-08T21:13:02+08:00 ] 183.57.53.222 /gt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+

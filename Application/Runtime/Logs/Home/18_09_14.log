@@ -1,0 +1,9 @@
+[ 2018-09-14T21:32:12+08:00 ] 119.129.114.87 /sifaju/gt/exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+ERR: 模板不存在:./Application/Home/View/Exam/还没有登录，非法闯入！.html
+

@@ -1,0 +1,1629 @@
+[ 2018-05-12T19:48:57+08:00 ] ::1 /shiji/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+NOTIC: [8] Undefined variable: moduleurl D:\XAMPP\htdocs\shiji\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: moduleurl D:\XAMPP\htdocs\shiji\Application\Admin\Controller\CommonController.class.php 第 23 行.
+
+[ 2018-05-12T19:48:57+08:00 ] ::1 /shiji/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2018-05-12T19:48:58+08:00 ] ::1 /shiji/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2018-05-12T19:49:07+08:00 ] ::1 /shiji/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `manager` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `manager` WHERE `username` = 'admin' AND `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-05-12T19:49:08+08:00 ] ::1 /shiji/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.1463s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.2011s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0761s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0013s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 0  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 1 AND `auth_type` = 1  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 14 AND `auth_type` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2018-05-12T19:49:08+08:00 ] ::1 /shiji/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0037s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0035s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0041s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2018-05-12T19:49:11+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+ERR: 无法加载控制器:User
+
+[ 2018-05-12T19:49:25+08:00 ] ::1 /shiji/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0038s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0043s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0042s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 1 AND `auth_type` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 14 AND `auth_type` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2018-05-12T19:49:25+08:00 ] ::1 /shiji/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0048s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0033s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0043s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2018-05-12T19:49:28+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0041s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0039s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0048s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: auth_name D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 47 行.
+NOTIC: [8] Undefined index: auth_module D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 48 行.
+NOTIC: [8] Undefined index: auth_controller D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 49 行.
+NOTIC: [8] Undefined index: auth_action D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 52 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 52 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 53 行.
+NOTIC: [8] Undefined index: auth_name D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 47 行.
+NOTIC: [8] Undefined index: auth_module D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 48 行.
+NOTIC: [8] Undefined index: auth_controller D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 49 行.
+NOTIC: [8] Undefined index: auth_action D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 52 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 52 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-05-12T19:50:17+08:00 ] ::1 /shiji/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0048s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0044s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0038s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 1 AND `auth_type` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 14 AND `auth_type` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2018-05-12T19:50:17+08:00 ] ::1 /shiji/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0035s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0045s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0040s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2018-05-12T19:50:20+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0034s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0039s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0043s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined index: auth_name D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 45 行.
+NOTIC: [8] Undefined index: auth_module D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 46 行.
+NOTIC: [8] Undefined index: auth_controller D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 47 行.
+NOTIC: [8] Undefined index: auth_action D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 48 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+NOTIC: [8] Undefined index: auth_name D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 45 行.
+NOTIC: [8] Undefined index: auth_module D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 46 行.
+NOTIC: [8] Undefined index: auth_controller D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 47 行.
+NOTIC: [8] Undefined index: auth_action D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 48 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2018-05-12T19:50:21+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0034s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0034s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0030s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: auth_name D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 45 行.
+NOTIC: [8] Undefined index: auth_module D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 46 行.
+NOTIC: [8] Undefined index: auth_controller D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 47 行.
+NOTIC: [8] Undefined index: auth_action D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 48 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+NOTIC: [8] Undefined index: auth_name D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 45 行.
+NOTIC: [8] Undefined index: auth_module D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 46 行.
+NOTIC: [8] Undefined index: auth_controller D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 47 行.
+NOTIC: [8] Undefined index: auth_action D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 48 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2018-05-12T19:51:01+08:00 ] ::1 /shiji/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0072s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0037s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0032s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 1 AND `auth_type` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 14 AND `auth_type` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2018-05-12T19:51:01+08:00 ] ::1 /shiji/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0044s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0044s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0092s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2018-05-12T19:51:03+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0041s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0034s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0034s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: auth_name D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 45 行.
+NOTIC: [8] Undefined index: auth_module D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 46 行.
+NOTIC: [8] Undefined index: auth_controller D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 47 行.
+NOTIC: [8] Undefined index: auth_action D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 48 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+NOTIC: [8] Undefined index: auth_name D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 45 行.
+NOTIC: [8] Undefined index: auth_module D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 46 行.
+NOTIC: [8] Undefined index: auth_controller D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 47 行.
+NOTIC: [8] Undefined index: auth_action D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 48 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2018-05-12T19:51:04+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0067s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0029s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0030s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: auth_name D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 45 行.
+NOTIC: [8] Undefined index: auth_module D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 46 行.
+NOTIC: [8] Undefined index: auth_controller D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 47 行.
+NOTIC: [8] Undefined index: auth_action D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 48 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+NOTIC: [8] Undefined index: auth_name D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 45 行.
+NOTIC: [8] Undefined index: auth_module D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 46 行.
+NOTIC: [8] Undefined index: auth_controller D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 47 行.
+NOTIC: [8] Undefined index: auth_action D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 48 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2018-05-12T19:51:05+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0039s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0033s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0042s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index: auth_name D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 45 行.
+NOTIC: [8] Undefined index: auth_module D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 46 行.
+NOTIC: [8] Undefined index: auth_controller D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 47 行.
+NOTIC: [8] Undefined index: auth_action D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 48 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+NOTIC: [8] Undefined index: auth_name D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 45 行.
+NOTIC: [8] Undefined index: auth_module D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 46 行.
+NOTIC: [8] Undefined index: auth_controller D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 47 行.
+NOTIC: [8] Undefined index: auth_action D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 48 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2018-05-12T19:53:21+08:00 ] ::1 /shiji/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0059s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0040s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0036s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 1 AND `auth_type` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 14 AND `auth_type` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2018-05-12T19:53:21+08:00 ] ::1 /shiji/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0049s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0054s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0041s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2018-05-12T19:53:23+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0072s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0044s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0033s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2018-05-12T19:53:33+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0036s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0036s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0035s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2018-05-12T19:53:34+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0079s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0036s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0039s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2018-05-12T19:54:10+08:00 ] ::1 /shiji/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0034s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0037s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0041s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0006s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 0  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 1 AND `auth_type` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 14 AND `auth_type` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2018-05-12T19:54:10+08:00 ] ::1 /shiji/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0033s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0037s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0066s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2018-05-12T19:54:10+08:00 ] ::1 /shiji/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0032s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0033s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0033s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 0  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 1 AND `auth_type` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 14 AND `auth_type` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2018-05-12T19:54:10+08:00 ] ::1 /shiji/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0105s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0427s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0034s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2018-05-12T19:54:12+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0078s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0030s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0045s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2018-05-12T19:54:26+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0032s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0038s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0031s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2018-05-12T19:54:38+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0040s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0036s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0041s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2018-05-12T20:59:14+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017858s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0048s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0032s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0031s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008336s ]
+
+[ 2018-05-12T20:59:15+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0059s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0035s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0037s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-05-12T21:00:23+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0076s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0034s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0040s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2018-05-12T21:00:24+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0070s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0035s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0036s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-05-12T21:00:24+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0037s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0035s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0036s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2018-05-12T21:00:24+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0037s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0036s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0033s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2018-05-12T21:00:24+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0035s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0036s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0037s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2018-05-12T21:00:36+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0072s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0038s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0039s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-05-12T21:00:36+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0043s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0038s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0035s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-05-12T21:00:36+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0039s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0043s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0043s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2018-05-12T21:00:36+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0038s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0037s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0032s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2018-05-12T21:00:36+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0036s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0039s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0041s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 50 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2018-05-12T21:00:48+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0032s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0033s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0037s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2018-05-12T21:00:49+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0034s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0039s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0037s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2018-05-12T21:00:49+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0048s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0038s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0038s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+NOTIC: [8] Undefined index: auth_id D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Admin\377e7c1ae6f9831d4228956a7791dba7.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2018-05-12T21:04:34+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0045s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0047s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0038s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2018-05-12T21:04:35+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0036s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0034s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0035s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2018-05-12T21:04:39+08:00 ] ::1 /shiji/Admin/User/user_stop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0036s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0032s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0038s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: UPDATE `user` SET `user_status`='0' WHERE `user_id` = 2 [ RunTime:0.0007s ]
+
+[ 2018-05-12T21:04:40+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0040s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0038s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0034s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-05-12T21:04:42+08:00 ] ::1 /shiji/Admin/User/user_start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0072s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0041s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0039s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0035s ]
+SQL: UPDATE `user` SET `user_status`='1' WHERE `user_id` = 2 [ RunTime:0.0003s ]
+
+[ 2018-05-12T21:04:43+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0033s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0035s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0032s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2018-05-12T21:06:00+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0038s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0033s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0046s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2018-05-12T21:06:01+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0042s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0037s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0034s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2018-05-12T21:06:12+08:00 ] ::1 /shiji/Admin/Index/member-del.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0036s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0035s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0032s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+ERR: 非法操作:member-del
+
+[ 2018-05-12T21:06:13+08:00 ] ::1 /shiji/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0032s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0032s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0037s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+

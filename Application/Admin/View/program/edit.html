@@ -1,0 +1,58 @@
+﻿{__NOLAYOUT__}
+<include file="Common/meta" />
+<title>修改判断题 - 判断题管理</title>
+</head>
+<body>
+<article class="page-container">
+	<form class="form form-horizontal" action="{:U('Admin/program/edit')}" method="post" id="form-admin-add" enctype="multipart/form-data" >
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>名称：</label>
+		<div class="formControls col-xs-8 col-sm-6">
+			<input class="input-text" type="input" value="{$data.title}" name="title" id="title">
+			<input type="hidden" name="id" value="{$data.program_id}">
+		</div>
+	</div>
+
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>检查标准：</label>
+		<div class="formControls col-xs-8 col-sm-6">
+			<input class="input-text" type="input" value="{$data.standard}" name="standard" id="standard">
+		</div>
+	</div>
+
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>检修时间段：</label>
+		<div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:150px;">
+			<select class="select" name="type" id="type">
+				<volist name="timestamp" id="foo">
+					<option value="{$foo.timestamp}">{$foo.timestamp}</option>
+				</volist>
+			</select>
+			</span> 
+		</div>
+	</div>
+
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>图片：</label>
+		<div class="formControls col-xs-8 col-sm-9">
+			<input type="file" name="imgfile">
+		</div>
+	</div>
+
+	<div class="row cl">
+		<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+			<input class="btn btn-primary radius" id="submit" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+		</div>
+	</div>
+	</form>
+</article>
+
+<include file="Common/footer" />
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__PUBLIC__/Admin/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Admin/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Admin/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+
+</body>
+</html>

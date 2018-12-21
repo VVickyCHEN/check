@@ -1,0 +1,59 @@
+﻿{__NOLAYOUT__}
+<include file="Common/meta" />
+<title>轮播图管理列表</title>
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 轮播图管理 <span class="c-gray en">&gt;</span> 轮播图列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+	<table class="table table-border table-bordered table-bg">
+		<thead>
+			<tr>
+				<th scope="col" colspan="9">轮播图列表</th>
+			</tr>
+			<tr class="text-c">
+				<th width="150">ID</th>
+				<th width="150">轮播图</th>
+				<th width="100">操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist name="list" id="foo">
+				<tr class="text-c">
+					<td>{$foo.banner_id}</td>
+					<td><img src="__PUBLIC__/{$foo.banner_thumb|ltrim=###,'./Public'}"></td>
+					<td class="td-manage">
+					<a title="编辑" href="javascript:;" onclick="edit('轮播图编辑','{:U('Admin/Banner/edit')}?id={$foo.banner_id}',{$foo.banner_id},'800','500')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> 
+					</td>
+				</tr>
+			</volist>
+		</tbody>
+	</table>
+</div>
+
+<include file="Common/footer" />
+
+
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__PUBLIC__/Admin/lib/My97DatePicker/4.8/WdatePicker.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Admin/lib/datatables/1.10.0/jquery.dataTables.min.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Admin/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript">
+/*
+	参数解释：
+	title	标题
+	url		请求的url
+	id		需要操作的数据id
+	w		弹出层宽度（缺省调默认值）
+	h		弹出层高度（缺省调默认值）
+*/
+
+/*轮播图-编辑*/
+function edit(title,url,id,w,h){
+	layer_show(title,url,w,h);
+}
+
+
+</script>
+</body>
+</html>

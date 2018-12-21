@@ -1,0 +1,1074 @@
+[ 2018-05-25T14:45:25+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0874s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2018-05-25T14:45:35+08:00 ] ::1 /shiji/pro_details.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载控制器:Pro_details
+
+[ 2018-05-25T14:46:01+08:00 ] ::1 /shiji/shop_cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+ERR: 无法加载控制器:Shop_cart
+
+[ 2018-05-25T14:46:09+08:00 ] ::1 /shiji/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+ERR: 非法操作:index
+
+[ 2018-05-25T14:47:22+08:00 ] ::1 /shiji/Product/shop_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0972s ]
+SQL: SELECT * FROM `product` LIMIT 0,28   [ RunTime:0.0443s ]
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+SQL: SELECT * FROM `product` ORDER BY product_sales desc LIMIT 0,28   [ RunTime:0.0606s ]
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+SQL: SELECT * FROM `product` ORDER BY product_comments desc LIMIT 0,28   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `product` ORDER BY product_min desc LIMIT 0,28   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1   [ RunTime:0.0381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2018-05-25T14:47:24+08:00 ] ::1 /shiji/Product/shop_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `product` LIMIT 0,28   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+SQL: SELECT * FROM `product` ORDER BY product_sales desc LIMIT 0,28   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+SQL: SELECT * FROM `product` ORDER BY product_comments desc LIMIT 0,28   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `product` ORDER BY product_min desc LIMIT 0,28   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001529s ]
+
+[ 2018-05-25T14:54:22+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001224s ]
+
+[ 2018-05-25T14:54:41+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2018-05-25T14:54:42+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0383s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2018-05-25T14:56:39+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2018-05-25T14:56:59+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2018-05-25T14:58:14+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2018-05-25T14:58:14+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2018-05-25T15:01:36+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` ORDER BY product_id desc LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2018-05-25T15:03:30+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product` ORDER BY product_id desc LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2018-05-25T15:06:22+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` ORDER BY product_id desc LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2018-05-25T15:07:17+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` ORDER BY product_id desc LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2018-05-25T15:07:48+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` ORDER BY product_id desc LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2018-05-25T15:07:48+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` ORDER BY product_id desc LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2018-05-25T15:07:57+08:00 ] ::1 /shiji/Product/pro_details.html?id=91
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `product` WHERE (  product_id=91 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `product` SET `product_browse`='1',`product_id`='91' WHERE `product_id` = 91 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `style` [ RunTime:0.0573s ]
+SQL: SELECT * FROM style as a INNER JOIN product_style as b on b.style_id=a.style_id   [ RunTime:0.0211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: product_num D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Home\f391e383773027cb0c31f1a4280110a8.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2018-05-25T15:08:08+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` ORDER BY product_id desc LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2018-05-25T15:27:46+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` ORDER BY product_id desc LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001807s ]
+
+[ 2018-05-25T15:27:48+08:00 ] ::1 /shiji/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2018-05-25T15:27:48+08:00 ] ::1 /shiji/Home/User/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2018-05-25T15:27:59+08:00 ] ::1 /shiji/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0449s ]
+SQL: SELECT * FROM `user` WHERE `user_username` = 'home' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-05-25T15:28:03+08:00 ] ::1 /shiji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cart` WHERE `cart_user` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` ORDER BY product_id desc LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( product_category=4 ) LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2018-05-25T15:28:05+08:00 ] ::1 /shiji/Product/shop_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `product` LIMIT 0,28   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 72 行.
+SQL: SELECT * FROM `product` ORDER BY product_sales desc LIMIT 0,28   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 78 行.
+SQL: SELECT * FROM `product` ORDER BY product_comments desc LIMIT 0,28   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `product` ORDER BY product_min desc LIMIT 0,28   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: thumb D:\XAMPP\htdocs\shiji\Application\Home\Controller\ProductController.class.php 第 90 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cart` WHERE `cart_user` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2018-05-25T15:28:08+08:00 ] ::1 /shiji/Product/pro_details.html?id=54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0354s ]
+SQL: SELECT * FROM `product` WHERE (  product_id=54 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `product` SET `product_browse`='170',`product_id`='54' WHERE `product_id` = 54 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `style` [ RunTime:0.0545s ]
+SQL: SELECT * FROM style as a INNER JOIN product_style as b on b.style_id=a.style_id   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cart` WHERE `cart_user` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: product_num D:\XAMPP\htdocs\shiji\Application\Runtime\Cache\Home\f391e383773027cb0c31f1a4280110a8.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2018-05-25T15:28:10+08:00 ] ::1 /shiji/Home/product/style.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `product_style` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `product_style` WHERE `product_style_id` = 35 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-05-25T15:28:11+08:00 ] ::1 /shiji/Home/Product/buys.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0087s ]
+NOTIC: [8] Undefined index: validate D:\XAMPP\htdocs\shiji\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\XAMPP\htdocs\shiji\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `orders` (`order_user`,`order_product`,`order_style`,`order_total`,`order_num`,`order_status`,`order_time`) VALUES ('1','54','35','4545','1','0','1527233290') [ RunTime:0.1487s ]
+
+[ 2018-05-25T15:28:11+08:00 ] ::1 /shiji/Cart/comfirm_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cart` WHERE `cart_user` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0052s ]
+SQL: SELECT * FROM orders as a INNER JOIN product as b on b.product_id=a.order_product  WHERE `order_user` = '1' AND `order_status` = 0  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `style` [ RunTime:0.0050s ]
+SQL: SELECT * FROM style as a INNER JOIN product_style as b on b.style_id=a.style_id   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2018-05-25T15:28:14+08:00 ] ::1 /shiji/Cart/comfirm_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cart` WHERE `cart_user` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-05-25T15:28:14+08:00 ] ::1 /shiji/Cart/pay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cart` WHERE `cart_user` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2018-05-25T15:28:20+08:00 ] ::1 /shiji/Cart/pay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.2058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cart` WHERE `cart_user` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `user_balance`='878597' WHERE `user_id` = 1 [ RunTime:0.0524s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0343s ]
+SQL: UPDATE `orders` SET `order_number`='2147483647',`order_status`='1',`order_id`='12' WHERE (  order_id=12 ) [ RunTime:0.0668s ]
+SQL: SELECT * FROM `orders` WHERE (  order_id=12 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `product` WHERE `product_id` = 54 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `product` SET `product_sales`='4' WHERE `product_id` = 54 [ RunTime:0.0003s ]
+
+[ 2018-05-25T15:28:21+08:00 ] ::1 /shiji/Cart/pay_success.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cart` WHERE `cart_user` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2018-05-25T15:28:23+08:00 ] ::1 /shiji/Cart/shop_cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cart` WHERE `cart_user` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0067s ]
+SQL: SELECT * FROM cart as a INNER JOIN product as b on b.product_id=a.cart_product  WHERE `cart_user` = '1'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `style` [ RunTime:0.0040s ]
+SQL: SELECT * FROM style as a INNER JOIN product_style as b on b.style_id=a.style_id   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2018-05-25T15:29:06+08:00 ] ::1 /shiji/Cart/pay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cart` WHERE `cart_user` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\XAMPP\htdocs\shiji\Application\Home\Controller\CartController.class.php 第 180 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2018-05-25T15:29:07+08:00 ] ::1 /shiji/Cart/comfirm_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cart` WHERE `cart_user` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0053s ]
+SQL: SELECT * FROM orders as a INNER JOIN product as b on b.product_id=a.order_product  WHERE `order_user` = '1' AND `order_status` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `style` [ RunTime:0.0034s ]
+SQL: SELECT * FROM style as a INNER JOIN product_style as b on b.style_id=a.style_id   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
