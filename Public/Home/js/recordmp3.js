@@ -73,7 +73,9 @@
                     if (processor && microphone) {
                         microphone.disconnect();
                         processor.disconnect();
-                        log('录音结束');
+                        stream.getTracks()[0].stop();
+                        // log('录音结束');
+
                     }
                 }
 

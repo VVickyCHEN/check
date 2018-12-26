@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
     <meta name="format-detection"content="telephone=no">
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=nLsK9qUii8uBZlkPAQUozAf9mR5xNVZF"></script>
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=nLsK9qUii8uBZlkPAQUozAf9mR5xNVZF&s=1"></script>
     <title></title>
 </head>
 <body>
@@ -110,13 +110,13 @@
 
 	//alert(map.getDistance(points,point).toFixed(2)+"米")
     var far  = map.getDistance(points,point).toFixed(2);
-	alert(far);
+	// alert(far);
  	var allmap = document.getElementById("allmap");
-    if(far>=1){
+    if(far>=100){
     	alert("未到工作地点")
         allmap.style.display = 'block';
     }else{
-	 	window.location.href='index1'
+	 	window.location.href="{:U('Index/load')}";
         allmap.style.display = 'none';
     }
 

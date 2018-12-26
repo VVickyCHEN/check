@@ -5,6 +5,7 @@
     position: relative;
     display: flex;
     flex-flow: column;
+    overflow: hidden;
 }
 .top{
     width: 6.04rem;
@@ -374,7 +375,7 @@
     width: 6.6rem;
     height: 100%;
     position: absolute;
-    z-index: 998;
+    z-index: 1;
 }
 #videoImg{
     width: 6.62rem;
@@ -398,6 +399,7 @@
 
 
 .but{
+    z-index: 999;
     width: 7.5rem;
     margin-top: 15%;
 }

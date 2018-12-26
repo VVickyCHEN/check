@@ -39,7 +39,7 @@ class TimestampController extends CommonController {
                 $timestamp_id = $timestamp ->add();
 
                 if($timestamp_id){
-                    echo "<script src='http://res.layui.com/lay/lib/layer/src/layer.js?v=2.0'></script><script src='https://code.jquery.com/jquery-3.1.1.min.js'></script><script type='text/javascript'>$(function(){layer.msg('添加成功');setTimeout(function(){window.parent.location.reload();},1000)});</script>";
+                    echo "<script>window.parent.location.reload();</script>";
 
                 }else{
                     $this->error('添加成功出错');
@@ -83,7 +83,7 @@ class TimestampController extends CommonController {
                 $timestamp_id = $timestamp->save();
 
                 if($timestamp_id){
-                    echo "<script src='http://res.layui.com/lay/lib/layer/src/layer.js?v=2.0'></script><script src='https://code.jquery.com/jquery-3.1.1.min.js'></script><script type='text/javascript'>$(function(){layer.msg('修改成功');setTimeout(function(){window.parent.location.reload();},1000)});</script>";
+                    echo "<script>window.parent.location.reload();</script>";
                 }else{
                     $this->error('保存出错');
                 }

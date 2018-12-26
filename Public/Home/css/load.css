@@ -1,0 +1,46 @@
+#background{
+    background: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+}
+.bg2{
+    width: 7.47rem;
+    height: 6.54rem;
+    margin-top: 2.75rem;
+}
+.mid{
+    position: relative;
+    width: 1.69rem;
+    height: 1.69rem;
+    left: 50%;
+    margin-left: -0.845rem;
+    margin-top: -0.845rem;
+}
+.mid img:nth-child(1){
+    width: 1.69rem;
+    height: 1.69rem;
+    position: absolute;
+}
+.mid img:nth-child(2){
+    width: 1.22rem;
+    height: 1.22rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -0.61rem;
+    margin-top: -0.61rem;
+}
+.mid p{
+    position: absolute;
+    font-size: 0.35rem;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 0.32rem;
+    margin-top: 0.6rem;
+    width: 1rem;
+    height: 0.4rem;
+}

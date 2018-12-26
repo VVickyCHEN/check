@@ -6,7 +6,7 @@ return array(
 	'URL_MODEL'             =>  2,
 
 	// 伪静态设置
-	'URL_HTML_SUFFIX'       =>  '',
+	'URL_HTML_SUFFIX'       =>  'html|shtml|xml',
 
 	// 允许访问的模块列表
 	'MODULE_ALLOW_LIST'     =>  array('Home','Admin'), 
@@ -25,7 +25,7 @@ return array(
 	// 用户名               
 	'DB_USER'   			=>  'root', 
 	// 密码
-	'DB_PWD'    			=>  'root', 
+	'DB_PWD'    			=>  '', 
 	// 端口
 	'DB_PORT'   			=>  3306, 
 	// 数据库表前缀 

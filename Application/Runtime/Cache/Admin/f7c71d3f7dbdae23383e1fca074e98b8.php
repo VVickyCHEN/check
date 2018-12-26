@@ -45,7 +45,7 @@
 		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>检修时间段：</label>
 		<div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:150px;">
 			<select class="select" name="type" id="type">
-				<?php if(is_array($timestamp)): $i = 0; $__LIST__ = $timestamp;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$foo): $mod = ($i % 2 );++$i;?><option value="foo.timestamp"><?php echo ($foo["timestamp"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+				<?php if(is_array($timestamp)): $i = 0; $__LIST__ = $timestamp;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$foo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($foo["timestamp"]); ?>"><?php echo ($foo["timestamp"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
 			</select>
 			</span> 
 		</div>

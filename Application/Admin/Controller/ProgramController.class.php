@@ -42,14 +42,14 @@ class ProgramController extends CommonController {
                 if($file["type"]=='image/jpeg'||$file["type"]=='image/png'||$file==null){
                     
                     // 先插入数据
-                    $program_id = $program ->add();
+                    $id = $program ->add();
 
                     $banner = A('banner');
                     $result=$banner->get_upload('img',$file);
 
                     $data['img']=implode('',$result);
                     
-                    $save = $this->_program->where(['program_id'=>$program_id])->save($data);
+                    $save = $this->_program->where(['id'=>$id])->save($data);
 
                     if($save){
                         echo "<script>window.parent.location.reload();</script>";
@@ -106,14 +106,14 @@ class ProgramController extends CommonController {
                 if($file["type"]=='image/jpeg'||$file["type"]=='image/png'){
                     
                     // 先插入数据
-                    $program_id = $program->save();
+                    $program->save();
 
                     $banner = A('banner');
                     $result=$banner->get_upload('img',$file);
 
                     $data['img']=implode('',$result);
 
-                    $save = $this->_program->where(['program_id'=>$id])->save($data);
+                    $save = $this->_program->where(['id'=>$id])->save($data);
 
                     if($save){
                         echo "<script>window.parent.location.reload();</script>";
@@ -135,7 +135,7 @@ class ProgramController extends CommonController {
             // 查询需要修改的数据
             $timestamp = $this->_timestamp->select();
             $this->assign('timestamp',$timestamp);
-            $data=$this->_program->find(I('program_id'));
+            $data=$this->_program->find(I('id'));
             $this->assign('data',$data);
             // 加载视图
             $this->display();

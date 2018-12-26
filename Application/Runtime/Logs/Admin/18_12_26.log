@@ -1,0 +1,963 @@
+[ 2018-12-26T09:39:12+08:00 ] ::1 /check/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Undefined variable: moduleurl D:\PHPTutorial\WWW\check\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: moduleurl D:\PHPTutorial\WWW\check\Application\Admin\Controller\CommonController.class.php 第 23 行.
+
+[ 2018-12-26T09:39:12+08:00 ] ::1 /check/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.201725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.201755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2018-12-26T09:39:14+08:00 ] ::1 /check/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2018-12-26T09:39:20+08:00 ] ::1 /check/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `manager` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `manager` WHERE `username` = 'admin' AND `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-12-26T09:39:21+08:00 ] ::1 /check/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0095s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0016s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0017s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 0  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 1 AND `auth_type` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 42 AND `auth_type` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 73 AND `auth_type` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 78 AND `auth_type` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 82 AND `auth_type` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-12-26T09:39:21+08:00 ] ::1 /check/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0015s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0016s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2018-12-26T09:39:25+08:00 ] ::1 /check/Admin/User/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0011s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` ORDER BY user_id desc LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2018-12-26T14:22:25+08:00 ] ::1 /check/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0135s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0255s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0017s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0003s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 0  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 1 AND `auth_type` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 42 AND `auth_type` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 73 AND `auth_type` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 78 AND `auth_type` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 82 AND `auth_type` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.209038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.209062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2018-12-26T14:22:31+08:00 ] ::1 /check/Admin/timestamp/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0011s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `timestamp` LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `timestamp` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2018-12-26T14:22:34+08:00 ] ::1 /check/Admin/program/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0286s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0010s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `program` LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `program` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 115 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 115 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 116 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 115 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 115 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 116 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 115 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 115 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 116 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 115 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 115 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 116 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 115 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 115 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 116 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 115 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 115 行.
+NOTIC: [8] Undefined index: id D:\PHPTutorial\WWW\check\Application\Runtime\Cache\Admin\c84f86102ad4b07cffb02d6a9a14da4a.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2018-12-26T15:22:05+08:00 ] ::1 /check/Admin/User/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0011s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` ORDER BY user_id desc LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2018-12-26T15:22:06+08:00 ] ::1 /check/Admin/user/append.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0011s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0013s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2018-12-26T15:22:09+08:00 ] ::1 /check/Admin/Auth/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0011s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0012s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0002s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 4  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 7  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 11  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 13  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 42  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 43  [ RunTime:0.0002s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 44  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 51  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 73  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 74  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 75  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 76  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 77  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 78  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 79  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 80  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 81  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 82  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 83  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2018-12-26T15:22:10+08:00 ] ::1 /check/Admin/Auth/append
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0011s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0013s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 4  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 7  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 10  [ RunTime:0.0002s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 11  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 13  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 42  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 43  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 44  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 51  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 73  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 74  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 75  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 76  [ RunTime:0.0001s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 77  [ RunTime:0.0002s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 78  [ RunTime:0.0002s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 79  [ RunTime:0.0002s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 80  [ RunTime:0.0002s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 81  [ RunTime:0.0002s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 82  [ RunTime:0.0002s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_module`,`auth_controller`,`auth_action` FROM `auth` WHERE `auth_pid` = 83  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2018-12-26T17:28:17+08:00 ] ::1 /check/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0013s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0013s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0012s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 0  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 1 AND `auth_type` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 42 AND `auth_type` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 73 AND `auth_type` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 78 AND `auth_type` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE `auth_pid` = 82 AND `auth_type` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2018-12-26T17:28:19+08:00 ] ::1 /check/Admin/program/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0006s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0012s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0012s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `program` LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `program` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2018-12-26T17:28:22+08:00 ] ::1 /check/Admin/program/append.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0006s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0010s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0012s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `timestamp`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2018-12-26T17:28:30+08:00 ] ::1 /check/Admin/program/append.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0003s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0003s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate D:\PHPTutorial\WWW\check\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHPTutorial\WWW\check\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `program` (`title`,`standard`,`type`,`created_at`,`updated_at`) VALUES ('原生 · 防酸抗敏','完整、干净/目视外观检查','每日检修','2018-12-26','2018-12-26') [ RunTime:0.0249s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0002s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\PHPTutorial\WWW\check\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `program` SET `img`='./Public/Admin/img/20181226/5c2349be0aaf5.jpg' WHERE `id` = 57 [ RunTime:0.0353s ]
+SQL: SELECT * FROM `timestamp`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2018-12-26T17:28:30+08:00 ] ::1 /check/Admin/program/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0005s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0005s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `program` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `program` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2018-12-26T17:28:32+08:00 ] ::1 /check/Admin/Program/showlist/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0003s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0003s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0004s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `program` LIMIT 24,6   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `program` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2018-12-26T17:28:36+08:00 ] ::1 /check/Admin/program/edit.html?id=57
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0004s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0005s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `timestamp`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `program` WHERE `id` = 57 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2018-12-26T17:28:41+08:00 ] ::1 /check/Admin/program/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0010s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0012s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0014s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate D:\PHPTutorial\WWW\check\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHPTutorial\WWW\check\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-12-26T17:28:47+08:00 ] ::1 /check/Admin/program/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0018s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0014s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate D:\PHPTutorial\WWW\check\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHPTutorial\WWW\check\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `program` SET `title`='https://www.163.com',`standard`='完整、干净/目视外观检查',`type`='每日检修',`updated_at`='2018-12-26' WHERE `id` = 57 [ RunTime:0.0329s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\PHPTutorial\WWW\check\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `program` SET `img`='./Public/Admin/img/20181226/5c2349cf2bf6c.jpg' WHERE `id` = 1 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+
+[ 2018-12-26T17:29:34+08:00 ] ::1 /check/Admin/program/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0010s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0012s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate D:\PHPTutorial\WWW\check\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHPTutorial\WWW\check\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `program` SET `title`='https://www.163.com',`standard`='完整、干净/目视外观检查',`type`='每日检修',`updated_at`='2018-12-26' WHERE `id` = 57 [ RunTime:0.0367s ]
+
+[ 2018-12-26T17:30:04+08:00 ] ::1 /check/Admin/Program/showlist/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0004s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0004s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `program` LIMIT 24,6   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `program` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2018-12-26T17:30:07+08:00 ] ::1 /check/Admin/program/edit.html?id=57
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0011s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0008s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `timestamp`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `program` WHERE `id` = 57 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2018-12-26T17:30:17+08:00 ] ::1 /check/Admin/program/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0004s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0005s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate D:\PHPTutorial\WWW\check\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHPTutorial\WWW\check\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `program` SET `title`='吃屎了你',`standard`='完整、干净/目视外观检查',`type`='每日检修',`updated_at`='2018-12-26' WHERE `id` = 57 [ RunTime:0.0346s ]
+
+[ 2018-12-26T17:30:38+08:00 ] ::1 /check/Admin/Program/showlist/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0011s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `program` LIMIT 24,6   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `program` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2018-12-26T17:30:41+08:00 ] ::1 /check/Admin/program/del.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0011s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0003s ]
+SQL: DELETE FROM `program` WHERE `id` = 57 [ RunTime:0.0258s ]
+
+[ 2018-12-26T17:30:43+08:00 ] ::1 /check/Admin/Program/showlist/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0011s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0013s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0013s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `program` LIMIT 24,6   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `program` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2018-12-26T17:30:45+08:00 ] ::1 /check/Admin/program/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0004s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0004s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `program` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `program` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2018-12-26T17:30:46+08:00 ] ::1 /check/Admin/timestamp/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0003s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0003s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0003s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `timestamp` LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `timestamp` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2018-12-26T17:30:50+08:00 ] ::1 /check/Admin/timestamp/append.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `timestamp` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `manager_role` [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `manager_role` WHERE `manager_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_auth` [ RunTime:0.0004s ]
+SQL: SELECT `auth_id` FROM `role_auth` WHERE `role_id` IN ('1')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0004s ]
+SQL: SELECT concat(auth_controller,'-',auth_action) as ids FROM `auth` WHERE `auth_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
