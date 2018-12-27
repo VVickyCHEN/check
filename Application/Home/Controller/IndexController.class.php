@@ -7,13 +7,13 @@ class IndexController extends Controller {
 
     private $_timestamp = '';
     private $_program = '';
-    private $_check = '';
+    private $_checked = '';
     private $_login = '';
 
     public function _initialize(){
         $this->_timestamp = M('timestamp');
         $this->_program = M('program');
-        $this->_check = M('check');
+        $this->_checked = M('checked');
         $this->_login = M('login');
     }
 
@@ -83,7 +83,8 @@ class IndexController extends Controller {
         // 根据检修时间段查找对应的program
         foreach ($timestamp as $key => $value) {
 
-            $timestamp[$key]['program'] = $this->_program->where(['type'=>$value['timestamp']])->field('id,title,type')->select();
+            $timestamp[$key]['program'] = M('program as a')->field('a.id,a.title,b.program_id,b.status')->where(['a.type'=>$value['timestamp']])->join('left join checked as b on a.id = b.program_id')->select();
+
         }
 
         $this->assign('timestamp',$timestamp);
@@ -141,13 +142,18 @@ class IndexController extends Controller {
 
     public function index3(){  
         $program_id = $_GET['program_id'];
+        $this->assign('program_id',$program_id);
         $title = $this->_program->where(['id'=>$program_id])->getField('title');
         $this->assign('title',$title);
         $this->display();
     }
 
     public function index4(){ 
+        if(IS_AJAX){
+            
+        }
         $program_id = $_GET['program_id'];
+        $this->assign('program_id',$program_id);
         $title = $this->_program->where(['id'=>$program_id])->getField('title');
         $this->assign('title',$title);
         $this->display();

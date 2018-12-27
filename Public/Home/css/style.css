@@ -116,14 +116,7 @@
     color: #00ffff;
     left: 0.25rem;
 }
-.mid_aa li:nth-child(1) ol:nth-child(2) img{
-    position: absolute;
-    width: 1.25rem;
-    height: 0.58rem;
-    margin-left: 0.66rem;
-    transform: skewX(24deg);
-    display: none;
-}
+
 /*第二个栏目*/
 .mid_aa li:nth-child(2){
     width: 5.82rem;

@@ -41,7 +41,12 @@
 									<a href="{:U('index2',array('program_id'=>$childfoo['id']))}">
 										<ol>
 
-											<img src="__PUBLIC__/Home/images/icon4.png">
+											<if condition="$childfoo.status eq 0">
+												<img src="__PUBLIC__/Home/images/icon4.png">
+											<else /> 
+												<img src="__PUBLIC__/Home/images/icon5.png">
+											</if>
+											
 
 											<p>{$childfoo.title}</p>
 										</ol>
@@ -49,7 +54,11 @@
 										<ol>
 											<p></p>
 
-											<img src="__PUBLIC__/Home/images/icon7.png" class="imgList2" >
+											<if condition="$childfoo.status eq 0">
+												<img src="__PUBLIC__/Home/images/icon8.png" class="imgList2" >
+											<else /> 
+												<img src="__PUBLIC__/Home/images/icon7.png" class="imgList2" >
+											</if>
 
 										</ol>
 									</a>

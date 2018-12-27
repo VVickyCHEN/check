@@ -1,7 +1,7 @@
 ~(function(win){
 	var htmls = '<input type="file" name="" id="" class="imgFiles" style="display: none" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg" multiple>'+
         '<div class="imgAll">'+
-        '    <ul>'+
+        '    <ul id="imgul">'+
         '    </ul>'+
         '</div>'+
 		'<div class="header">'+
@@ -156,7 +156,7 @@
 		var _self = this;
 		this.dom = document.createElement('li');
 		this.dom.innerHTML = 
-							'    <img src="img/login.gif" alt="" data-src="'+this.imgSrc +'" class="imsg">'+
+							'    <img src="" alt="" data-src="'+this.imgSrc +'" class="imsg">'+
 							'    <i class="delImg">'+
 							'        X'+
 							'    </i>';
@@ -199,7 +199,7 @@
             //     height:"2rem"
             // },100);
 			var Url = $(this).find('img').attr('data-src');
-			console.log(Url);
+			// console.log(Url);
 			$('#bigImg').attr('src',Url);
         })
 		

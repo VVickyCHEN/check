@@ -38,7 +38,10 @@
 									<a href="<?php echo U('index2',array('program_id'=>$childfoo['id']));?>">
 										<ol>
 
-											<img src="/check/Public/Home/images/icon4.png">
+											<?php if($childfoo["status"] == 0): ?><img src="/check/Public/Home/images/icon4.png">
+											<?php else: ?> 
+												<img src="/check/Public/Home/images/icon5.png"><?php endif; ?>
+											
 
 											<p><?php echo ($childfoo["title"]); ?></p>
 										</ol>
@@ -46,7 +49,9 @@
 										<ol>
 											<p></p>
 
-											<img src="/check/Public/Home/images/icon7.png" class="imgList2" >
+											<?php if($childfoo["status"] == 0): ?><img src="/check/Public/Home/images/icon8.png" class="imgList2" >
+											<?php else: ?> 
+												<img src="/check/Public/Home/images/icon7.png" class="imgList2" ><?php endif; ?>
 
 										</ol>
 									</a>

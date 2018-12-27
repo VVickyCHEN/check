@@ -55,25 +55,26 @@
         </div>
         <div class="mid_bb">
             <ul>
+                <!-- 获取当前的program_id -->
+                <input type="hidden" name="<?php echo ($program_id); ?>" id="program_id">
                 <li id="mid_bb_a" style="display: block">
                     <p>实例文字</p>
-                    <textarea wrap="hard" cols="">
+                    <textarea wrap="hard" id="textarea" cols="">
 
                     </textarea>
                 </li>
                 <li id="mid_bb_b" style="display: none">
                     <p>
-
-                            <span id="playRecord">
-                                <em class='sk-wave'>
-                                    <em class='sk-rect sk-rect-1'></em>
-                                    <em class='sk-rect sk-rect-2'></em>
-                                    <em class='sk-rect sk-rect-3'></em>
-                                    <em class='sk-rect sk-rect-4'></em>
-                                    <em class='sk-rect sk-rect-5'></em>
-                               </em>
-                                <img src="/check/Public/Home/images/index3/icon4.png" class="play"/>
-                            </span>
+                        <span id="playRecord">
+                            <em class='sk-wave'>
+                                <em class='sk-rect sk-rect-1'></em>
+                                <em class='sk-rect sk-rect-2'></em>
+                                <em class='sk-rect sk-rect-3'></em>
+                                <em class='sk-rect sk-rect-4'></em>
+                                <em class='sk-rect sk-rect-5'></em>
+                           </em>
+                            <img src="/check/Public/Home/images/index3/icon4.png" class="play"/>
+                        </span>
                         <img src="/check/Public/Home/images/index3/icon3.png" class="luyin">
                     </p>
                     <p class="start_p">
@@ -84,12 +85,14 @@
 
                     <audio controls  style="display:none " id="video_lu"></audio>
                 </li>
+                <!-- 图片上传 -->
                 <li id="mid_bb_c" style="display: none">
                     <p class="enlarge"><img src="/check/Public/Home/images/index3/icon17.png"></p>
-                    <p style="display: none"><img src="/check/Public/Home/" alt=""style="width: 6.86rem;height: 100%" id="bigImg" ></p>
+                    <p style="display: none"><img src="" alt=""style="width: 6.86rem;height: 100%" id="bigImg" ></p>
                     <div class="box" style="display: none">
                     </div>
                 </li>
+                <!-- 视频上传 -->
                 <li id="mid_bb_d" style="display: none">
                     <div>
                         <span>
@@ -116,7 +119,7 @@
     </div>
     <div class="but">
         <ul>
-            <li id="but_aa"><a href="index4.html" class="Jumps"> <img src="/check/Public/Home/images/index3/icon1.png"></a></li>
+            <li id="but_aa"><a onclick="upload()" class="Jumps"> <img src="/check/Public/Home/images/index3/icon1.png"></a></li>
             <li><a href="index2.html" class="jump" onclick="return confirm('确认返回吗')"><img src="/check/Public/Home/images/index3/icon2.png"></a> </li>
         </ul>
     </div>
@@ -124,9 +127,33 @@
 </body>
 </html>
 
-
-
 <script type="text/javascript">
+    // 上传
+    function upload(){
+        var program_id = $('#program_id').attr('name');
+
+        // 文字获取
+        var textarea = $('#textarea').val();
+
+        // base64位图片获取
+        var img = [];
+
+        var imgul = $('#imgul li');
+
+        for (var i = 0; i < imgul.length; i++) {
+            img[i] = imgul.find('img').attr('data-src');
+        }
+
+        var video = $('#y').files();
+        console.log(video);return false;
+
+
+
+            
+    }
+
+
+
     var imgFile = new ImgUploadeFiles('.box',function(e){
         this.init({
             MAX : 4, //限制个数
